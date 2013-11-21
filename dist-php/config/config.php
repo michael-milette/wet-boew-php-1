@@ -15,7 +15,8 @@
 	$_PAGE['nosearch'] = (!isset($_PAGE['nosearch']) ? 0 : $_PAGE['nosearch']);
 	$_PAGE['nositemenu'] = (!isset($_PAGE['nositemenu']) ? 0 : $_PAGE['nositemenu']);
 	$_PAGE['nobcrumb'] = (!isset($_PAGE['nobcrumb']) ? 0 : $_PAGE['nobcrumb']);
-	 	 
+    $_SITE['archived_'.$_LANG_] = (!isset($_SITE['archived_'.$_LANG_]) ? 0 : $_SITE['archived_'.$_LANG_]);
+
 	/* 
 	 * Set only non-language specific variables in this file 
 	 */
